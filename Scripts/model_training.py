@@ -9,7 +9,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 import joblib
 
 # 1️⃣ Load your dataset
-df = pd.read_csv("D:/Github/DSS_project/clone/Data/synthetic_student_wellbeing.csv")  # adjust path if needed
+df = pd.read_csv("D:/Github/DSS_project/Data/synthetic_student_wellbeing.csv")  # adjust path if needed
 
 # 2️⃣ Encode categorical variables
 df['Residence'] = df['Residence'].map({'Home': 0, 'Hostel': 1, 'PG': 2})

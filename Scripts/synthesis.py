@@ -173,7 +173,7 @@ print(df.head())
 
 
 # ✅ Define the CSV file path
-file_path = os.path.join("DSS_Project","clone","Data", "synthetic_student_wellbeing.csv")
+file_path = os.path.join("DSS_Project","Data", "synthetic_student_wellbeing.csv")
 
 # ✅ Save the DataFrame as a CSV file (rounded to 2 decimal places)
 df = df.round(2)
