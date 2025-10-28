@@ -75,10 +75,9 @@ import os
 import joblib
 
 # Make sure the folder exists
-os.makedirs("D:/Github/DSS_project/clone/Models", exist_ok=True)
+os.makedirs("D:/Github/DSS_project/Models", exist_ok=True)
 
 # Now save your models
-joblib.dump(rf_stress, "D:/Github/DSS_project/clone/Models/stress_model.pkl")
-joblib.dump(rf_mental, "D:/Github/DSS_project/clone/Models/mental_model.pkl")
-joblib.dump(rf_prod, "D:/Github/DSS_project/clone/Models/productivity_model.pkl")
-
+joblib.dump(rf_stress, "Models/stress_model.pkl")
+joblib.dump(rf_mental, "Models/mental_model.pkl")
+joblib.dump(rf_prod, "Models/productivity_model.pkl")

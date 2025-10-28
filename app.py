@@ -10,9 +10,9 @@ import os
 # ------------------------------
 # 1. Load trained models
 # ------------------------------
-stress_model = joblib.load("DSS_project/Models/stress_model.pkl")
-mental_model = joblib.load("DSS_project/Models/mental_model.pkl")
-productivity_model = joblib.load("DSS_project/Models/productivity_model.pkl")
+stress_model = joblib.load("Models/stress_model.pkl")
+mental_model = joblib.load("Models/mental_model.pkl")
+productivity_model = joblib.load("Models/productivity_model.pkl")
 
 st.set_page_config(page_title="Student DSS - Wellbeing & Productivity", layout="centered")
 st.title("🎓 Student Decision Support System (DSS)")
